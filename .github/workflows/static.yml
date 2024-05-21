@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Team Fabulator by Tony Irsatd </title>
+</head>
+<body>
+    
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#seasons">Seasons</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#history">History</a></li>
+    </ul>
+    <div style="margin-left: 25%;padding: 1px 16px;height: 1000px;">
+        <h1 style="text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;font-size: 80px; color: #EE4E4E; background-color:#EADBC8;" >Team Fabulator</h1>
+        <p>This is the team</p>
+         <img src="https://scontent.fbma5-1.fna.fbcdn.net/v/t39.30808-6/345065207_1615426282294718_677069616578459395_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=yawM0QjkukwQ7kNvgH7TaFR&_nc_ht=scontent.fbma5-1.fna&oh=00_AYB1VsCzxHjLrlxk3_jHUVJnmv4Aj9fW1AhovyK2xC935w&oe=66514684" alt="">
+    </div>
+    
+</body>
+
+</html>
+body {
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #DAC0A3;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+li a {
+    display: block;
+    color: #799351;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a.active {
+    background-color: #799351;
+    color:#070201;
+}
+li a:hover:not(.active){
+    background-color: #A1DD70 ;
+}
+p {
+    background-image: url(c:\Users\dimitrov\Desktop\VSCode\345065207_1615426282294718_677069616578459395_n.jpg);
+}
+
