@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #DAC0A3;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+li a {
+    display: block;
+    color: #799351;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a.active {
+    background-color: #799351;
+    color:#070201;
+}
+li a:hover:not(.active){
+    background-color: #A1DD70 ;
+}
+p {
+    background-image: url(c:\Users\dimitrov\Desktop\VSCode\345065207_1615426282294718_677069616578459395_n.jpg);
+}
